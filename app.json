@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/Row/Row",
+    "pages/cart/index",
+    "pages/sousuo/index",
+    "pages/user/index",
+    "pages/kind/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "优选网",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "selectedColor": "#d81e06",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "assets/img/home.png",
+        "selectedIconPath": "assets/img/home1.png"
+      },
+      {
+        "pagePath": "pages/sousuo/index",
+        "text": "搜索",
+        "iconPath": "assets/img/sou-suo1.png",
+        "selectedIconPath": "assets/img/sou-suo.png"
+      },
+      {
+        "pagePath": "pages/kind/index",
+        "text": "分类",
+        "iconPath": "assets/img/kind.png",
+        "selectedIconPath": "assets/img/kind1.png"
+      },
+      {
+        "pagePath": "pages/cart/index",
+        "text": "购物车",
+        "iconPath": "assets/img/cart.png",
+        "selectedIconPath": "assets/img/cart1.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "我的",
+        "iconPath": "assets/img/user.png",
+        "selectedIconPath": "assets/img/user1.png"
+      }
+    ]
+  }
+}

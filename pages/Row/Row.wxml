@@ -1,0 +1,30 @@
+<!--pages/Row/Row.wxml-->
+<view class="container">
+  <view class="title">
+    <view class="title-l">
+      <icon class="icon iconfont icon-like"></icon>
+      <text class="yd">运动</text>
+    </view>
+    <view class="title-r">
+      <text>更多</text>
+      <icon class="icon iconfont icon-award"></icon>
+    </view>
+  </view>
+  <view class="content">
+    <view class="content-l">
+      <view class="content-l-img-box">
+        <image src="/assets/img/yd-l.png" class="content-l-img"></image>
+      </view>
+    </view>
+    <view class="content-r">
+      <view class="content-r-top">
+        <image src="/assets/img/yd-r-2.png" class="top-img-l"></image>
+        <image src="/assets/img/yd-r-1.png" class="top-img-r"></image>
+      </view>
+      <view class="content-r-bottom">
+        <image src="/assets/img/yd-r-1.png" class="top-img-l"></image>
+        <image src="/assets/img/yd-r-2.png" class="top-img-r"></image>
+      </view>
+    </view>
+  </view>
+</view>

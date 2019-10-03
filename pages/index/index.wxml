@@ -1,0 +1,90 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+  <view class="hd-top">
+    <view class="logo">
+      <cover-image class="img-box" src="/assets/img/ux.png"></cover-image>
+    </view>
+    <view class="search">
+      <input class="search-input" type="text" placeholder="搜索优选商店/店铺">
+      </input>
+      <icon class="icon iconfont icon-search"></icon>
+    </view>
+    <view class="msg">
+      <view class="msg-icon">
+        <icon class="icon iconfont icon-yonghu1"></icon>
+      </view>
+      <text class="msg-txt">消息</text>
+    </view>
+  </view>
+  <view class="swiper-wrap">
+    <swiper class="swiper-box" indicator-color="#fff" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" circular="true">
+      <swiper-item wx:for="{{background}}" wx:key="index">
+        <image class="swiper-img" src="{{item}}"></image>
+      </swiper-item>
+    </swiper>
+  </view>
+  <view class="nav-wrap-box">
+    <view class="nav-wrap">
+      <view class="nav-item">
+        <view class="nav-item-icon">
+          <icon class="icon iconfont icon-naiping1"></icon>
+        </view>
+        <text class="nav-item-txt">母婴品</text>
+      </view>
+      <view class="nav-item">
+        <view class="nav-item-icon">
+          <icon class="icon iconfont icon-chaoshi"></icon>
+        </view>
+        <text class="nav-item-txt">超市购</text>
+      </view>
+      <view class="nav-item">
+        <view class="nav-item-icon">
+          <icon class="icon iconfont icon-miaosha"></icon>
+        </view>
+        <text class="nav-item-txt">秒杀拍</text>
+      </view>
+      <view class="nav-item">
+        <view class="nav-item-icon">
+          <icon class="icon iconfont icon-chongzhi"></icon>
+        </view>
+        <text class="nav-item-txt">易充值</text>
+      </view>
+    </view>
+  </view>
+  <view class="good-content">
+    <view class="time-good good-item">
+      <view class="time-title">
+        <view class="time-title-l">
+          <icon class="icon iconfont icon-miaosha"></icon>
+          <text class="ms">秒杀</text>
+          <view class="time-s">
+            <text class="curT">{{h1}}</text>
+            <text class="curT">{{h2}}</text>
+            <text class="mh">:</text>
+            <text class="curT">{{m1}}</text>
+            <text class="curT">{{m2}}</text>
+            <text class="mh">:</text>
+            <text class="curT">{{s1}}</text>
+            <text class="curT">{{s2}}</text>
+          </view>
+        </view>
+        <view class="time-title-r">
+          <text>更多</text>
+          <icon class="icon iconfont icon-award"></icon>
+        </view>
+      </view>
+      <view class="time-content">
+        <view wx:for='{{goodItemImg}}' wx:key='index' class="time-item">
+          <view class="time-img-box">
+            <image class="time-img" src="{{item}}"></image>
+          </view>
+          <view class="time-content-txt">
+            <text>秒杀价:￥0.01元</text>
+            <text>手机专享</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <Row-Component></Row-Component>
+  </view>
+</view>

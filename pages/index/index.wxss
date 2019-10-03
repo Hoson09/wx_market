@@ -1,0 +1,271 @@
+/* pages/index/index.wxss */
+
+.container {
+  padding: 0;
+  width: 100%;
+}
+
+.container .hd-top {
+  padding: 3rpx 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  align-items: center;
+  background: linear-gradient(to right, #900758, #f81c5a);
+}
+
+.logo {
+  flex: 0 0 70rpx;
+  height: 76rpx;
+  margin-left: 23rpx;
+}
+
+.logo .img-box {
+  width: 70rpx;
+  height: 70rpx;
+}
+
+.msg {
+  flex: 0 0 48rpx;
+  font-size: 20rpx;
+  text-align: center;
+  margin-right: 23rpx;
+  color: #fff;
+}
+
+.msg-icon .icon {
+  font-size: 40rpx;
+}
+
+.search {
+  flex: 1;
+  position: relative;
+  border: 2rpx solid #ccc;
+  margin-left: 10rpx;
+  margin-right: 40rpx;
+  height: 50rpx;
+  padding: 0 3%;
+  border-radius: 25rpx;
+}
+
+.search .search-input {
+  width: 90%;
+  height: 100%;
+  box-sizing: border-box;
+  border: none;
+  font-size: 25rpx;
+  line-height: 50rpx;
+  color: #fff;
+}
+
+.search .icon {
+  position: absolute;
+  top: -50%;
+  right: 10rpx;
+  width: 50rpx;
+  height: 50rpx;
+  font-size: 50rpx;
+  transform: translate(0, 50%);
+  color: #fff;
+}
+
+.container .swiper-wrap {
+  width: 750rpx;
+  border-bottom: 2rpx solid #ccc;
+  box-sizing: border-box;
+}
+
+.container .swiper-wrap .swiper-img {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.nav-wrap-box {
+  width: 100%;
+  padding: 18rpx 0;
+  background-color: #f0f0f0;
+}
+
+.nav-wrap-box .nav-wrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+}
+
+.nav-wrap-box .nav-wrap .nav-item {
+  text-align: center;
+  flex: 0 0 66rpx;
+  padding: 20rpx 0;
+}
+
+.nav-item .nav-item-icon {
+  height: 62rpx;
+  width: 62rpx;
+  line-height: 62rpx;
+  margin: 0 auto;
+  border-radius: 50%;
+  margin-bottom: 3rpx;
+}
+
+.nav-item:first-child .nav-item-icon {
+  background-color: #7f74dd;
+}
+
+.nav-item:last-child .nav-item-icon {
+  background-color: #7f74dd;
+}
+
+.nav-item:nth-child(2) .nav-item-icon {
+  background-color: #7f74dd;
+}
+
+.nav-item:nth-child(3) .nav-item-icon {
+  background-color: #7f74dd;
+}
+
+.nav-item .nav-item-icon .icon {
+  display: inline-block;
+  margin: 0 auto;
+  width: 30rpx;
+  height: 30rpx;
+  font-size: 30rpx;
+  text-align: center;
+  color: #fff;
+}
+
+.nav-item .nav-item-txt {
+  font-size: 20rpx;
+  height: 20rpx;
+  line-height: 20rpx;
+  color: #999;
+}
+
+/* good-content */
+
+.good-content {
+  background-color: #f0f0f0;
+  width: 100%;
+}
+
+.good-content .good-item {
+  margin-bottom: 18rpx;
+}
+
+.good-content .time-good {
+  width: 100%;
+  background-color: #fff;
+}
+
+.time-good .time-title {
+  padding: 0 22rpx;
+  box-sizing: border-box;
+  height: 56rpx;
+  line-height: 56rpx;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2rpx solid #f0f0f0;
+  color: #ff8a2f;
+  font-size: 30rpx;
+}
+
+.time-good .time-title .time-title-l {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.time-title-l .icon {
+  font-size: 30rpx;
+  margin-left: 13rpx;
+}
+
+.time-title-l .ms {
+  margin-left: 13rpx;
+}
+
+.time-title-l .time-s {
+  margin-left: 13rpx;
+  display: flex;
+  align-items: center;
+}
+
+.time-title-l .time-s .curT {
+  width: 22rpx;
+  height: 30rpx;
+  line-height: 30rpx;
+  background-color: #000;
+  color: #fff;
+  margin: 0 4rpx;
+  font-size: 20rpx;
+}
+
+.time-title-l .time-s .mh {
+  color: #000;
+}
+
+.time-good .time-title .time-title-l::before {
+  content: '';
+  display: block;
+  width: 12rpx;
+  height: 56rpx;
+  background-color: #ff8a2f;
+}
+
+.time-good .time-title .time-title-r .icon {
+  color: #ff8a2f;
+  font-size: 30rpx;
+}
+
+.time-good .time-content {
+  padding: 14rpx 34rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.time-good .time-content .time-item {
+  flex: 0 0 200rpx;
+}
+
+.time-item .time-img-box {
+  width: 200rpx;
+  height: 200rpx;
+  margin-bottom: 10rpx;
+}
+
+.time-img-box .time-img {
+  width: 100%;
+  height: 100%;
+}
+.time-item .time-content-txt{
+  width: 100%;
+  font-size: 20rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.time-item .time-content-txt text:first-child{
+  flex: 1;
+  color: #f81c5a;
+}
+.time-item .time-content-txt text:last-child{
+  font-size: 12rpx;
+  flex: 0 0 54rpx;
+  height: 20rpx;
+  line-height: 20rpx;
+  background-color: #7f74dd;
+  text-align: center;
+  color: #fff;
+}
+
+.good-content .female-good {
+  width: 100%;
+  height: 20rpx;
+  background-color: #fff;
+}
