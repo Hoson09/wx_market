@@ -1,0 +1,43 @@
+<!--pages/more/index.wxml-->
+<view class="container">
+  <view class="title">
+    <view class="title-txt">
+      <icon class="icon iconfont icon-miaosha"></icon>
+      <text>秒杀精选</text>
+    </view>
+    <view class="title-content">
+      <view class="img-wrap" wx:for='{{img}}' wx:key='index'>
+        <view class="img-item">
+          <view class="img-wrap-title">{{item.imgTxt}}</view>
+          <view class="img-wrap-image">
+            <image class="img-image" src="{{item.img}}"></image>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="content">
+    <view class="contet-title">
+      <text class="ct-l">今日份推荐</text>
+      <text class="ct-r">TODAY</text>
+    </view>
+    <view class="content-content">
+      <view class="content-wrap">
+        <view class="content-content-wrap" wx:for='{{contents}}' wx:key='index'>
+          <view class="content-img">
+            <image class="images" src="{{item.img}}"></image>
+          </view>
+          <view class="content-txt">
+            <view class="content-txt-l">
+              <text class="c-txt-l">{{item.ctitle}}</text>
+            </view>
+            <view class="content-txt-r">
+              <text class="c-txt-r">{{item.clike}}</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+</view>

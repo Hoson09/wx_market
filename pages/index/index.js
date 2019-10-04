@@ -1,6 +1,5 @@
 // pages/index/index.js
 Page({
-
   /**
    * 页面的初始数据
    */
@@ -130,6 +129,11 @@ Page({
       m2: tempArr[3],
       s1: tempArr[4],
       s2: tempArr[5]
+    });
+  },
+  navToMorePage(){
+    wx.navigateTo({
+      url: '/pages/more/index'
     });
   }
 

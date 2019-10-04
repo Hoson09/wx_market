@@ -5,7 +5,8 @@
     "pages/cart/index",
     "pages/sousuo/index",
     "pages/user/index",
-    "pages/kind/index"
+    "pages/kind/index",
+    "pages/more/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -16,6 +17,8 @@
   "sitemapLocation": "sitemap.json",
   "tabBar": {
     "selectedColor": "#d81e06",
+    "backgroundColor": "#000",
+    "color": "#fafafa",
     "list": [
       {
         "pagePath": "pages/index/index",

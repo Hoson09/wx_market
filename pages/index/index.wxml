@@ -68,7 +68,7 @@
             <text class="curT">{{s2}}</text>
           </view>
         </view>
-        <view class="time-title-r">
+        <view class="time-title-r" bindtap="navToMorePage">
           <text>更多</text>
           <icon class="icon iconfont icon-award"></icon>
         </view>

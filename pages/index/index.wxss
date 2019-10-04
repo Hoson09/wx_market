@@ -33,7 +33,11 @@
   margin-right: 23rpx;
   color: #fff;
 }
-
+.msg .msg-icon{
+  width: 40rpx;
+  height: 40rpx;
+  text-align: center;
+}
 .msg-icon .icon {
   font-size: 40rpx;
 }
